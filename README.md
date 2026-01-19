@@ -1,64 +1,98 @@
+Project Overview
+
+This project focuses on the analysis of credit risk and non-performing loans within a banking context.
+Using structured datasets and visual analytics, the project aims to identify risk concentration, portfolio weaknesses, and structural inefficiencies in credit management and recovery strategies.
+
+The analysis is purely analytical and academic, intended for educational and professional demonstration purposes.
+
+🎯 Objectives
+
+Analyze the distribution of credit risk across organizational units
+
+Identify concentration risks related to large exposures
+
+Study the behavior of distressed portfolios
+
+Evaluate risk segmentation and provisioning logic
+
+Provide data-driven insights to support strategic decision-making
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas for data cleaning and transformation
+
+Matplotlib / Seaborn for data visualization
+
+Jupyter Notebook for analysis workflow
+
+📈 Analysis Components
+
+The project includes:
+
+Portfolio segmentation analysis
+
+Risk concentration diagnostics
+
+Comparative performance analysis
+
+Visualization of risk categories
+
+Temporal evolution of credit quality
+
+Identification of structurally vulnerable exposures
+
+All visualizations are generated programmatically to ensure reproducibility and clarity.
+
+📊 Visualizations
+
+The repository contains multiple graphs illustrating:
+
+Risk distribution across entities
+
+Concentration of exposures
+
+Portfolio health indicators
+
+Evolution of distressed assets
+
+⚠️ Note:
+Graphs are presented without explicit values to preserve confidentiality while highlighting trends and patterns.
+
+🔒 Data Privacy & Confidentiality
+
+No sensitive identifiers are disclosed
+
+No exact figures are mentioned
+
+All datasets are anonymized
+
+The project respects professional and ethical data-handling standards
+
+This repository is safe for public sharing.
+
+🧠 Key Insights
+
+Credit risk tends to be highly concentrated rather than evenly distributed
+
+A small subset of exposures can heavily influence overall portfolio health
+
+Preventive risk management is more effective than late-stage recovery
+
+Portfolio diversification plays a critical role in risk mitigation
+
+📁 Repository Structure
+├── notebooks/
+│   └── analysis.ipynb
+├── graphs/
+│   └── generated_visuals/
+├── data/
+│   └── cleaned_dataset.csv
+├── README.md
 
 
-Ce notebook Python a pour objectif l’analyse et l’exploration de données bancaires issues d’un fichier CSV (privé.csv) dans le cadre d’un projet BEA.
-Il permet de :
+📚 Disclaimer
 
-Charger et nettoyer des données de crédits bancaires
-
-Identifier les dossiers bénéficiant de dispositifs de soutien de l’État (ANSEJ / CNAC)
-
-Séparer les crédits soutenus des crédits classiques
-
-Analyser les créances contentieuses et les montants compromis
-
-Réaliser des statistiques agrégées par agence
-
-Visualiser les résultats à l’aide de graphiques
-
-Le projet utilise principalement Pandas, NumPy, Matplotlib et Seaborn pour la manipulation, l’analyse et la visualisation des données.
-
-PROJET BEA – Analyse des Crédits Bancaires
-
- Description
-Ce projet vise à analyser des données de crédits bancaires afin d’évaluer
-l’exposition au risque, la répartition des dossiers et l’impact des dispositifs
-de soutien de l’État (ANSEJ / CNAC).
-
-L’analyse est réalisée à l’aide de Python et de bibliothèques de data science.
-
----
-
-Structure du projet
-
-- projet bea.ipynb   → Notebook principal d’analyse
-- privé.csv          → Données sources (confidentielles)
-- README.md          → Documentation du projet
-
----
-
- Technologies utilisées
-
-- Python 3
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
----
-
- Fonctionnalités
-
-- Nettoyage et préparation des données
-- Détection automatique des crédits ANSEJ / CNAC
-- Séparation des crédits soutenus et classiques
-- Calcul des créances contentieuses
-- Analyse des montants compromis (50% / 100%)
-- Agrégation par agence
-- Visualisation des résultats
-
----
- Exécution
-
-1. Installer les dépendances :
-```bash
-pip install pandas numpy matplotlib seaborn
+This project is intended for academic, learning, and demonstration purposes only.
+It does not represent real financial advice or operational decisions.
